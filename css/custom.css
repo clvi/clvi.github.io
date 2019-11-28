@@ -1,0 +1,42 @@
+@font-face {
+    /* https://fonts.google.com/specimen/Ubuntu */
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Ubuntu Regular"), local("Ubuntu-Regular"), url(../webfonts/Ubuntu-Regular.ttf) format("truetype");
+}
+
+.font-ubuntu {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.pt-custom {
+    padding-top: 5rem;
+}
+
+img.homelink {
+    max-height: 40px;
+}
+a {
+    color: #00b4b4;
+}
+
+a:hover {
+    color: #7d5e49;
+}
+
+h1 {
+    color: #7d5e49;
+    padding-bottom: 0.5em;
+}
+
+img.avatar {
+    margin: 0 1em;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+footer {
+    font-style: italic;
+    color: gray;
+}
