@@ -7,5 +7,45 @@ layout: default
         <h1>Portfolio</h1>
     </div>
 
-    <p class="font-weight-bold">Page under development.</p>
+    <h2>Talks and projects</h2>
+
+    <div class="post-list">
+        {% for post in site.posts %}
+        {% include portfolio-tile.html splash=post.splash title=post.title date=post.date excerpt=post.excerpt url=post.url %}
+        {% endfor %}
+    </div>
+
+    <h2>Associations</h2>
+
+    <div class="post-list">
+
+        {% include portfolio-tile.html
+        splash='/images/portfolio/logo_lyonjug.png'
+        title='LyonJUG'
+        excerpt='<p>Organizer of conferences about Java language and ecosystem in Lyon.</p>'
+        url='https://lyonjug.org/'
+        external_link='true'
+        link_text='lyonjug.org'
+        %}
+
+        {% include portfolio-tile.html
+        splash='/images/portfolio/logo_duchess.png'
+        title='Duchess France'
+        excerpt='<p>Community of women working as developers, tech experts and software architects.</p>'
+        url='http://www.duchess-france.org/'
+        external_link='true'
+        link_text='duchess-france.org'
+        %}
+
+        {% include portfolio-tile.html
+        splash='/images/portfolio/logo_ope.png'
+        title='Objectif pour l\'Emploi'
+        excerpt='<p>Promotion of technical and scientific jobs for high school students.</p>'
+        url='https://objectifpouremploi.fr/'
+        external_link='true'
+        link_text='objectifpouremploi.fr'
+        %}
+
+    </div>
+
 </div>
