@@ -7,10 +7,10 @@
         <div class="post-date">{{ include.date | date_to_string }}</div>
         <div class="post-excerpt">{{ include.excerpt }}</div>
 
-        {% if external_link == 'true' %}
-        <a href="{{ include.url }}">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
-        {% else %}
+        {% if include.external_link == 'true' %}
         <a href="{{ include.url }}" target="_blank">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
+        {% else %}
+        <a href="{{ include.url }}">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
         {% endif %}
 
     </div>
