@@ -11,7 +11,7 @@ layout: default
         <img class="avatar" src="images/photo.jpg" alt="Avatar Claire Villard"/>
     </div>
 
-    <p>My name is Claire Villard.</p>
+    <p>My name is {{ site.name }}.</p>
 
     <p>I'm a professional Java developer and Technical Leader.</p>
 
@@ -20,5 +20,5 @@ layout: default
 
     <p class="font-weight-bold">Personal website under development.</p>
 
-    <p>Contact me: <a href="mailto:contact@clvi.eu"><i class="fa fa-envelope"></i> contact@clvi.eu</a></p>
+    <p>Contact me: <a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> {{ site.email }}</a></p>
 </div>
