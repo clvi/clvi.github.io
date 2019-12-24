@@ -1,7 +1,8 @@
 ---
 title: Stream Processing with HazelCast Jet
 category: ["project"]
-splash: "/images/portfolio/hazelcast-jet.png"
+splash: "/images/portfolio/hz-jet-banner.png"
+banner: "/images/portfolio/hz-jet-banner.png"
 ---
 
 Blend Web Mix 2017, Cité Internationale, Lyon
