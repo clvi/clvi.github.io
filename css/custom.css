@@ -27,6 +27,7 @@ a:hover {
 
 h1 {
     color: #7d5e49;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
 
@@ -56,8 +57,12 @@ footer {
     box-shadow: 0 0 5px #00b4b4;
 }
 
+.post-splash {
+    text-align: center;
+}
+
 .post-splash img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .post-content {

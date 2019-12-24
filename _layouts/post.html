@@ -4,6 +4,10 @@ layout: default
 
 <div class="container">
 
+    {% if page.banner %}
+    <div class="post-splash"><img src="{{ page.banner }}" alt="Illustration of post '{{ include.title }}'"/></div>
+    {% endif %}
+
     <h1>{{ page.date | date_to_string }} : {{ page.title }}</h1>
 
     {{ content }}
