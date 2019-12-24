@@ -8,7 +8,7 @@
         <div class="post-excerpt">{{ include.excerpt }}</div>
 
         {% if include.external_link == 'true' %}
-        <a href="{{ include.url }}" target="_blank">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
+        <a href="{{ include.url }}" target="_blank" rel="noopener noreferrer">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
         {% else %}
         <a href="{{ include.url }}">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
         {% endif %}
