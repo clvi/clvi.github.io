@@ -12,7 +12,7 @@ other_authors:
 
 Creation of a new graphic identity for the [LyonJUG](https://lyonjug.org) association.
 
-Project management, specification, validation of assets created by [ <i class="fab fa-linkedin"></i> Clément Fuzier](https://www.linkedin.com/in/clementfuzier/).
+Project management, specification, validation of assets created by [ <span class="fab fa-linkedin"></span> Clément Fuzier](https://www.linkedin.com/in/clementfuzier/).
 
 Development of the new [lyonjug.org](https://lyonjug.org) website using the new graphic chart.
 
