@@ -51,9 +51,8 @@ footer {
 }
 
 .post-abstract {
-    max-width: 250px;
+    width: 250px;
     box-shadow: 0 0 5px #00b4b4;
-    margin: 1em;
 }
 
 .post-splash img {
