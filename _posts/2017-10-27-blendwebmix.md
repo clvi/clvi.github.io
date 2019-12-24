@@ -1,6 +1,6 @@
 ---
 title: Stream Processing with HazelCast Jet
-tags: [conference]
+category: ["project"]
 splash: "/images/portfolio/hazelcast-jet.png"
 ---
 

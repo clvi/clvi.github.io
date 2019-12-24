@@ -10,7 +10,7 @@ layout: default
     <h2>Talks and projects</h2>
 
     <div class="post-list row text-center">
-        {% for post in site.posts %}
+        {% for post in site.categories['project'] %}
         {% include portfolio-tile.html splash=post.splash title=post.title date=post.date excerpt=post.excerpt url=post.url %}
         {% endfor %}
     </div>
