@@ -42,6 +42,23 @@ img.avatar {
     max-height: 150px;
 }
 
+.flag {
+    vertical-align: middle;
+}
+
+.flag:before {
+    display: inline-block;
+    width: 16px;
+}
+
+.fr:before {
+    content: url("/images/fr-16.png");
+}
+
+.en:before {
+    content: url("/images/en-16.png");
+}
+
 footer {
     font-style: italic;
     color: gray;

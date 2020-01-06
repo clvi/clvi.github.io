@@ -7,7 +7,7 @@ banner: "/images/portfolio/hazelcast-banner.png"
 
 in "Programmez", n° 236 (January 2020), pp. 51-53.
 
-French title: ![French flag](/images/fr-16.png) "Utilisation d’un cache distribué à travers l’exemple d’Hazelcast"
+<span class="flag fr"> French title: "Utilisation d’un cache distribué à travers l’exemple d’Hazelcast"</span>
 
 > Nous connaissons tous la belle histoire d’un projet qui marche.
 > Au début, tout commence avec une petite application, sa base de données, et son front-end.
