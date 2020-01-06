@@ -99,3 +99,12 @@ footer {
 .progress-bar {
     background-color: #00b4b4;
 }
+
+blockquote {
+    font-style: italic;
+    margin-left: 16px;
+    padding-left: 16px;
+    background-repeat:no-repeat;
+    min-height: 30px;
+    border-left: lightgray solid 6px;
+}
