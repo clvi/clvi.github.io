@@ -27,7 +27,13 @@ a:hover {
 
 h1 {
     color: #7d5e49;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+
+h2 {
+    color: #7d5e49;
+    padding-top: 0.5em;
 }
 
 img.avatar {
@@ -36,7 +42,87 @@ img.avatar {
     max-height: 150px;
 }
 
+.flag {
+    vertical-align: middle;
+}
+
+.flag:before {
+    display: inline-block;
+    width: 16px;
+}
+
+.fr:before {
+    content: url("/images/fr-16.png");
+}
+
+.en:before {
+    content: url("/images/en-16.png");
+}
+
 footer {
     font-style: italic;
     color: gray;
+    font-size: x-small;
+}
+
+.post-list {
+    overflow: auto
+}
+
+.post-abstract {
+    width: 250px;
+    border-color: #00b4b4;
+    border-style: dotted;
+}
+
+.post-splash {
+    text-align: center;
+}
+
+.post-splash img {
+    max-width: 100%;
+}
+
+.post-content {
+    min-height: 190px;
+    padding: 1em;
+}
+.post-title {
+    color: #7d5e49;
+    font-weight: bold;
+}
+
+.post-date {
+    color: gray;
+    font-size: small;
+}
+
+.xp-content {
+    overflow: auto;
+}
+.xp-title {
+    font-size: large;
+    font-weight: bold;
+    color: #00b4b4;
+}
+
+.xp-date {
+    color: gray;
+}
+
+.xp-skills {
+    color: gray;
+}
+
+.progress-bar {
+    background-color: #00b4b4;
+}
+
+blockquote {
+    font-style: italic;
+    margin-left: 16px;
+    padding-left: 16px;
+    background-repeat:no-repeat;
+    min-height: 30px;
+    border-left: lightgray solid 6px;
 }

@@ -1,0 +1,17 @@
+<div class="post-abstract mx-auto my-3 mx-sm-auto my-sm-3 m-md-3 my-lg-3 mx-xl-3 my-xl-3 p-0 float-md-left">
+    {% if include.splash %}
+    <div class="post-splash"><img src="{{ include.splash }}" alt="Illustration of post '{{ include.title }}'"/></div>
+    {% endif %}
+    <div class="post-content">
+        <div class="post-title">{{ include.title }}</div>
+        <div class="post-date">{{ include.date | date_to_string }}</div>
+        <div class="post-excerpt">{{ include.excerpt }}</div>
+
+        {% if include.external_link == 'true' %}
+        <a href="{{ include.url }}" target="_blank" rel="noopener noreferrer">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
+        {% else %}
+        <a href="{{ include.url }}">{% if include.link_text %}{{ include.link_text }}{% else %}Read more...{% endif %}</a>
+        {% endif %}
+
+    </div>
+</div>

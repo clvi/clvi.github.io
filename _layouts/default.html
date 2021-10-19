@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/fontawesome-all.css">
-    <link rel="stylesheet" href="/css/custom.css">
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.bundle.js"></script>
     <script src="/js/webfont.js"></script>
@@ -16,9 +14,26 @@
 <body class="font-ubuntu bg-light text-dark pt-custom">
 <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light shadow">
     <div class="container">
-        <a class="navbar-brand" href="/"><img class="homelink" src="images/logo.png" alt="Logo clvi.eu"></a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#items" aria-controls="items" aria-expanded="false"><i class="navbar-toggler-icon"></i></button>
+        <a class="navbar-brand" href="/"><img class="homelink" src="/images/logo.png" alt="Logo {{ site.title }}"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#items" aria-controls="items" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
         <div class="navbar-collapse collapse" id="items">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/resume.html">Resume</a>
+                <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="/contact.html">Contact</a>
+            </div>
+
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="https://twitter.com/clvi_eu" target="_blank" rel="noopener noreferrer">
+                    <span class="fab fa-twitter"></span><span class="d-sm-none"> @clvi_eu</span>
+                </a>
+                <a class="nav-item nav-link" href="https://github.com/clvi" target="_blank" rel="noopener noreferrer">
+                    <span class="fab fa-github"></span><span class="d-sm-none"> clvi</span>
+                </a>
+                <a class="nav-item nav-link" href="https://www.linkedin.com/in/clairevillard/" target="_blank" rel="noopener noreferrer">
+                    <span class="fab fa-linkedin"></span><span class="d-sm-none"> {{ site.name }} on LinkedIn</span>
+                </a>
+            </div>
         </div>
     </div>
 </nav>
