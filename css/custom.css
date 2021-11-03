@@ -59,7 +59,7 @@ img.avatar {
     content: url("/images/en-16.png");
 }
 
-footer {
+footer, figcaption {
     font-style: italic;
     color: gray;
     font-size: x-small;
